@@ -25,7 +25,7 @@ public class LetterInventory {
                 if (singularCharacter > 65) {
                     if (singularCharacter < 90) {//this is a uppercase letter
                         //add 32
-                        singularCharacter += 32;
+                        singularCharacter += 32;//this
 
                         int oldTotal = dataLetterLength[(singularCharacter - 97)][t];
                         dataLetterLength[(singularCharacter - 97)][t] = (oldTotal + 1);
