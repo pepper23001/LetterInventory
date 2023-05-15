@@ -8,7 +8,7 @@ import java.util.*;
 
 
 public class LetterInventory {
-    static int[][] dataLetterLength = new int[26][4];
+    static int[][] dataLetterLength = new int[26][4];//s
     static LetterInventory inventory;
     static LetterInventory other;
 
